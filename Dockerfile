@@ -17,7 +17,7 @@ RUN go mod download
 # Copy the source code to the working directory
 COPY . .
 
-# Build the application
+# Build the applications
 RUN go build -o main .
 
 #######################################################

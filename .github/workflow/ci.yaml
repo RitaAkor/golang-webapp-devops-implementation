@@ -1,6 +1,6 @@
-# CICD using GitHub actions
+# CICD using GitHub actionss
 
-name: CI/CD
+name: goproject
 
 # Exclude the workflow to run on changes to the helm chart
 on:

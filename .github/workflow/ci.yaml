@@ -1,12 +1,16 @@
-name: goproject 
+# CICD using GitHub actions
 
+name: CI/CD
+
+# Exclude the workflow to run on changes to the helm chart
 on:
   push:
     branches:
-      - main 
+      - main
     paths-ignore:
-      - 'README.md'
       - 'helm/**'
+      - 'k8s/**'
+      - 'README.md'
 
 jobs:
 
